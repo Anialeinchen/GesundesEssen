@@ -10,14 +10,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ania.gesundesessen.MainActivity">
-//small change
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:style="@style/MyTheme"
         android:background="@android:color/white"
-        android:text="@string/ready_nto_find_out_nmore"
-        " />
+        android:text="@string/ready_nto_find_out_nmore"/>
     <ScrollView
         android:layout_width="wrap_content"
         android:visibility="gone"
@@ -44,7 +43,8 @@
 
             <ImageView
                 android:id="@+id/goji_im"
-                android:layout_width="70dp"
+                android:contentDescription="@string/hashtag"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:onClick="goji_click"
@@ -66,7 +66,8 @@
 
             <ImageView
                 android:id="@+id/kuskus_im"
-                android:layout_width="70dp"
+                android:layout_width="0dp"
+                android:contentDescription="@string/hashtag"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:src="@drawable/kuskus" />
@@ -88,9 +89,10 @@
 
             <ImageView
                 android:id="@+id/spirulina_im"
-                android:layout_width="70dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:contentDescription="@string/hashtag"
                 android:src="@drawable/spirulina" />
 
             <TextView
@@ -110,9 +112,10 @@
 
             <ImageView
                 android:id="@+id/chia_im"
-                android:layout_width="70dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:contentDescription="@string/hashtag"
                 android:src="@drawable/chia" />
 
             <TextView
@@ -132,9 +135,10 @@
 
             <ImageView
                 android:id="@+id/polenta_im"
-                android:layout_width="70dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:contentDescription="@string/hashtag"
                 android:src="@drawable/polenta" />
 
             <TextView

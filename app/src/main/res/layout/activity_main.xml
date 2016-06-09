@@ -12,143 +12,133 @@
     tools:context="com.example.ania.gesundesessen.MainActivity">
 
     <TextView
+        style="@style/MyTheme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:style="@style/MyTheme"
         android:background="@android:color/white"
-        android:text="@string/ready_nto_find_out_nmore"/>
+        android:text="@string/ready_to_find_out_more" />
+
     <ScrollView
-        android:layout_width="wrap_content"
-        android:visibility="gone"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="BLAAAAAAAAA"/>
-    </ScrollView>
-
-    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:alpha="0.8"
-        android:background="@android:color/white"
-        android:orientation="vertical"
-        android:padding="20dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+            android:alpha="0.8"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="20dp">
 
-            <ImageView
-                android:id="@+id/goji_im"
-                android:contentDescription="@string/hashtag"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:onClick="goji_click"
-                android:src="@drawable/goji" />
-
-            <TextView
-                android:id="@+id/goji_text"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:style="@style/MyThemeSmall"
-                android:text="@string/hashtag" />
-        </LinearLayout>
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/goji_im"
+                    android:layout_width="50dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/hashtag"
+                    android:onClick="goji_click"
+                    android:src="@drawable/goji" />
 
-            <ImageView
-                android:id="@+id/kuskus_im"
-                android:layout_width="0dp"
-                android:contentDescription="@string/hashtag"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:src="@drawable/kuskus" />
+                <TextView
+                    android:id="@+id/goji_text"
+                    style="@style/MyThemeSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hashtag" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/kuskus_text"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:text="@string/hashtag" />
-        </LinearLayout>
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/kuskus_im"
+                    android:adjustViewBounds="true"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/hashtag"
+                    android:onClick="kuskus_click"
+                    android:src="@drawable/kuskus" />
 
-            <ImageView
-                android:id="@+id/spirulina_im"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/hashtag"
-                android:src="@drawable/spirulina" />
+                <TextView
+                    android:id="@+id/kuskus_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/hashtag" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/spirulina_text"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:text= "@string/hashtag"/>
-        </LinearLayout>
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/spirulina_im"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/hashtag"
+                    android:onClick="spirulina_click"
+                    android:src="@drawable/spirulina" />
 
-            <ImageView
-                android:id="@+id/chia_im"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/hashtag"
-                android:src="@drawable/chia" />
+                <TextView
+                    android:id="@+id/spirulina_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/hashtag" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/chia_text"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:text="@string/hashtag"/>
-        </LinearLayout>
+                android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/chia_im"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/hashtag"
+                    android:onClick="chia_click"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/chia" />
 
-            <ImageView
-                android:id="@+id/polenta_im"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:contentDescription="@string/hashtag"
-                android:src="@drawable/polenta" />
+                <TextView
+                    android:id="@+id/chia_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/hashtag" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/polenta_text"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="10dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:text="@string/hashtag" />
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/polenta_im"
+                    android:layout_width="50dp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/hashtag"
+                    android:onClick="polenta_click"
+                    android:src="@drawable/polenta" />
+
+                <TextView
+                    android:id="@+id/polenta_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="@string/hashtag" />
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 </LinearLayout>

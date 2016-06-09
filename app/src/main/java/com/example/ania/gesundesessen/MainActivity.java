@@ -18,46 +18,46 @@ public class MainActivity extends AppCompatActivity {
       //      context.getResources().getStringArray(R.array.EssenItems);
 
     public void goji_click(View view) {
-        display(7777);
+        displayGoji(7777);
     }
 
-    private void display(int number) {
+    private void displayGoji(int number) {
         TextView goji_inhalt = (TextView) findViewById(
                 R.id.goji_text);
         goji_inhalt.setText(""+number);
     }
     public void polenta_click(View view) {
-        display(7777);
+        displayPolenta(7777);
     }
 
-    private void display(int number) {
+    private void displayPolenta(int number) {
         TextView polenta_inhalt = (TextView) findViewById(
                 R.id.polenta_text);
         polenta_inhalt.setText("" + number);
     }
     public void kuskus_click(View view) {
-        display(7777);
+        displayKuskus(7777);
     }
 
-    private void display(int number) {
+    private void displayKuskus(int number) {
         TextView kuskus_inhalt = (TextView) findViewById(
                 R.id.kuskus_text);
         kuskus_inhalt.setText("" + number);
     }
     public void spirulina_click(View view) {
-        display(7777);
+        displaySpirulina(7777);
     }
 
-    private void display(int number) {
+    private void displaySpirulina(int number) {
         TextView spirulina_inhalt = (TextView) findViewById(
                 R.id.spirulina_text);
         spirulina_inhalt.setText("" + number);
     }
     public void chia_click(View view) {
-        display(7777);
+        displayChia(7777);
     }
 
-    private void display(int number) {
+    private void displayChia(int number) {
         TextView chia_inhalt = (TextView) findViewById(
                 R.id.chia_text);
         chia_inhalt.setText("" + number);

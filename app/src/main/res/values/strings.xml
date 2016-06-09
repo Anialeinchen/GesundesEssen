@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">Gesundes Essen</string>
-    <string name="ready_nto_find_out_nmore">Ready \nto find out\nmore?</string>
+    <string name="ready_to_find_out_more">Ready \nto find out\nmore?</string>
     <string name="hashtag">#calcium #avocadoschokoladenmuss \n #diätetisch #tee #whynot #snobbish</string>
-    <!--TODO: array context in java funktioniert nicht--!>
+    <!--TODO: array context in java funktioniert nicht-->
     <string-array name="EssenItems">
         <item>Goji</item>
         <item>Polenta</item>

@@ -1,0 +1,11 @@
+Style : why is our attribute unknown
+why do you have to give context description and what does it  // für Blinde Leute
+conflicts in styles folder
+scroll view as a child of parent view useless?
+array in strings :c
+
+ private void display(int number) {
+        TextView goji_inhalt = (TextView) findViewById(
+                R.id.goji_text);
+        goji_inhalt.setText(""+number);
+        moze da sie jako parameter nazwe, goji_text, tylko w jakim formacie?

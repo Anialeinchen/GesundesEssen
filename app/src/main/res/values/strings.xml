@@ -3,7 +3,7 @@
     <string name="app_name">Gesundes Essen</string>
     <string name="ready_to_find_out_more">Ready \nto find out\nmore?</string>
     <string name="hashtag">#calcium #avocadoschokoladenmuss \n #diätetisch #tee #whynot #snobbish</string>
-    <!--TODO: array context in java funktioniert nicht-->
+    <string name="costam">costam costttam kkaoctsman</string>
     <string-array name="EssenItems">
         <item>Goji</item>
         <item>Polenta</item>

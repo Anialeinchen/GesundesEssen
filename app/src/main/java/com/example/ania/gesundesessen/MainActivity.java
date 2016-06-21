@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private void displayPolenta(int number) {
         TextView polenta_inhalt = (TextView) findViewById(
                 R.id.polenta_text);
-        polenta_inhalt.setText("" + number);
+        polenta_inhalt.setText(R.string.costam);
     }
     public void kuskus_click(View view) {
         displayKuskus(7777);
